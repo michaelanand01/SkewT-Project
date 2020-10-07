@@ -62,7 +62,7 @@ T_C_levels = np.arange(-80,40,10)
 T_levels = T_C_levels + C_to_K
 theta_levels = np.arange(-40,100,10)
 theta.ep_levels = theta_levels.copy()
-mixing_ratios = 0.001* np.asarray(0.4,1,2,3,5,8,12,16,20)
+mixing_ratios = 0.001* np.asarray([0.4,1,2,3,5,8,12,16,20])
 
 
 
