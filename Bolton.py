@@ -37,7 +37,7 @@ def T_LCL(T,RH):
     """Finds the temperature of the LCL in Kelvin"""
     Denom_1 = 1/((T)-55)
     Denom_2 = (ln(RH/100))/2840
-    T_LCL = 1/(Denom_1 - Denom_2)
+    T_LCL =(1/(Denom_1 - Denom_2)) + 55
     return T_LCL
 
 def theta_dry(theta, p, p_0=1000.0):
