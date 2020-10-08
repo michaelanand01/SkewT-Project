@@ -2,7 +2,7 @@
 
 import numpy as np
 import Bolton
-import natplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 from mpl_toolkits.axisartist import Subplot
 from matplotlib.ticker import FuncFormatter, Formatter
 from mpl_toolkits.axisartist.grid_helper_curvelinear import GridHelperCurveLinear
